@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill 2</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body style="background-color: #BFD2BF">
+    <div class="container">
+    <h1 id="welcome_sign">Area Circle Calculator</h1>
+
+            <img src="https://i.pinimg.com/736x/c9/ca/3f/c9ca3fefa88782c9447748013cb52b8b.jpg" alt="img" style="width: 180px;"><br><br>
+        
+            <label style="color: #5b5680;">Radius: </label>
+            <input type="number" id="a" placeholder="Radius">
+            <br><br>
+            <label style="color: #5b5680;">Area: </label><span id="area_display"></span> 
+                <script>
+                    document.getElementById("area_display").innerHTML = "Area: " + (Math.PI * radii ** 2);
+                </script>
+            <input readonly type="number" id="area" placeholder="Area">
+
+    
+
+            <br><br><br>
+            <button onclick="calculateValues()" class="button">Calculate</button>
+            <button class="button"
+            <button type="button" class="button" onclick="window.location.reload()">Refresh</button>
+            <br><br>
+            <a href="https://www.bbc.co.uk/bitesize/guides/ztndmp3/revision/6" style="color: #5b5680;">Area and Circumferene of A Circle</a>
+
+    </div>
+
+    <script>
+    
+    </script>
+    <script src="main.js"></script>   
+</body>
+</html>

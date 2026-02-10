@@ -1,0 +1,35 @@
+.container {
+    background-color: #f7c1bb;        
+    padding: 30px 10px;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    border: 8px dashed #6f6c89;
+    margin: auto;
+    margin-top: 100px;
+    width: 1200px;
+    text-align: center;
+    }
+
+    #welcome_sign {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 40px;
+    color: #6F6C89;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: #6f6c89;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Comic Sans MS', sans-serif;
+        font-size: 20px;
+    }
+
+    .button:hover {
+        background-color: #84819C;
+    }
